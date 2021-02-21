@@ -5,6 +5,7 @@ pipeline {
         maven 'maven'
     }
 
+
     stages {
         stage ('test') {
            steps {
